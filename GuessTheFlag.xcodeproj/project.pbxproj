@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1A1482A287F522200709CA9 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A14829287F522200709CA9 /* GameManager.swift */; };
 		A1B4593D287D79DE00E56736 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4593C287D79DE00E56736 /* GuessTheFlagApp.swift */; };
 		A1B4593F287D79DE00E56736 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4593E287D79DE00E56736 /* ContentView.swift */; };
 		A1B45941287D79E200E56736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B45940287D79E200E56736 /* Assets.xcassets */; };
 		A1B45944287D79E200E56736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B45943287D79E200E56736 /* Preview Assets.xcassets */; };
+		A1B4594E287D8A8400E56736 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4594D287D8A8400E56736 /* PrimaryButton.swift */; };
+		A1B45951287D8E2400E56736 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45950287D8E2400E56736 /* Extensions.swift */; };
+		A1B45953287D8EFE00E56736 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45952287D8EFE00E56736 /* QuestionView.swift */; };
+		A1B45955287D922400E56736 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45954287D922400E56736 /* ProgressBar.swift */; };
+		A1B4595A287D967200E56736 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45959287D967200E56736 /* AnswerRow.swift */; };
+		A1B4595C287DA90300E56736 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4595B287DA90300E56736 /* GameView.swift */; };
+		A1B4595E287DAABC00E56736 /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4595D287DAABC00E56736 /* FlagView.swift */; };
+		A1B4596A287DD46200E56736 /* FlagData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45969287DD46200E56736 /* FlagData.swift */; };
+		A1B4596C287DD68200E56736 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4596B287DD68200E56736 /* test.swift */; };
+		A1B4596E287DF41300E56736 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4596D287DF41300E56736 /* Answer.swift */; };
+		A1B45970287DF58600E56736 /* data_json.json in Resources */ = {isa = PBXBuildFile; fileRef = A1B4596F287DF58600E56736 /* data_json.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1A14829287F522200709CA9 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		A1B45939287D79DE00E56736 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B4593C287D79DE00E56736 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
 		A1B4593E287D79DE00E56736 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1B45940287D79E200E56736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B45943287D79E200E56736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1B4594D287D8A8400E56736 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		A1B45950287D8E2400E56736 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A1B45952287D8EFE00E56736 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		A1B45954287D922400E56736 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		A1B45959287D967200E56736 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		A1B4595B287DA90300E56736 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A1B4595D287DAABC00E56736 /* FlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
+		A1B45969287DD46200E56736 /* FlagData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagData.swift; sourceTree = "<group>"; };
+		A1B4596B287DD68200E56736 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		A1B4596D287DF41300E56736 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		A1B4596F287DF58600E56736 /* data_json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data_json.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +76,13 @@
 			isa = PBXGroup;
 			children = (
 				A1B4593C287D79DE00E56736 /* GuessTheFlagApp.swift */,
-				A1B4593E287D79DE00E56736 /* ContentView.swift */,
+				A1B45950287D8E2400E56736 /* Extensions.swift */,
+				A1B4594F287D8BA900E56736 /* Views */,
+				A1B4594C287D8A5F00E56736 /* Components */,
+				A1B45956287D95D500E56736 /* Models */,
 				A1B45940287D79E200E56736 /* Assets.xcassets */,
 				A1B45942287D79E200E56736 /* Preview Content */,
+				A1A14829287F522200709CA9 /* GameManager.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -65,6 +93,38 @@
 				A1B45943287D79E200E56736 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1B4594C287D8A5F00E56736 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4594D287D8A8400E56736 /* PrimaryButton.swift */,
+				A1B45954287D922400E56736 /* ProgressBar.swift */,
+				A1B45959287D967200E56736 /* AnswerRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A1B4594F287D8BA900E56736 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4593E287D79DE00E56736 /* ContentView.swift */,
+				A1B4595B287DA90300E56736 /* GameView.swift */,
+				A1B45952287D8EFE00E56736 /* QuestionView.swift */,
+				A1B4595D287DAABC00E56736 /* FlagView.swift */,
+				A1B4596B287DD68200E56736 /* test.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1B45956287D95D500E56736 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4596F287DF58600E56736 /* data_json.json */,
+				A1B45969287DD46200E56736 /* FlagData.swift */,
+				A1B4596D287DF41300E56736 /* Answer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B45944287D79E200E56736 /* Preview Assets.xcassets in Resources */,
+				A1B45970287DF58600E56736 /* data_json.json in Resources */,
 				A1B45941287D79E200E56736 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +198,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B45953287D8EFE00E56736 /* QuestionView.swift in Sources */,
+				A1B4594E287D8A8400E56736 /* PrimaryButton.swift in Sources */,
+				A1B4595A287D967200E56736 /* AnswerRow.swift in Sources */,
+				A1B4596E287DF41300E56736 /* Answer.swift in Sources */,
+				A1B4596C287DD68200E56736 /* test.swift in Sources */,
 				A1B4593F287D79DE00E56736 /* ContentView.swift in Sources */,
+				A1B4595C287DA90300E56736 /* GameView.swift in Sources */,
+				A1B4596A287DD46200E56736 /* FlagData.swift in Sources */,
 				A1B4593D287D79DE00E56736 /* GuessTheFlagApp.swift in Sources */,
+				A1B4595E287DAABC00E56736 /* FlagView.swift in Sources */,
+				A1B45955287D922400E56736 /* ProgressBar.swift in Sources */,
+				A1B45951287D8E2400E56736 /* Extensions.swift in Sources */,
+				A1A1482A287F522200709CA9 /* GameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
