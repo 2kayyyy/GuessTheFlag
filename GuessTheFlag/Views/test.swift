@@ -6,11 +6,17 @@
 //
 
 import SwiftUI
+
 struct test: View {
+    var allFlags: [FlagData] = FlagData.allFlags
     var body: some View {
-        Text("allFlags[1]")
+        VStack{
+            List {
+                    Text(allFlags[3].Name)
+                }
+            }
+        }
     }
-}
 
 struct test_Previews: PreviewProvider {
     static var previews: some View {

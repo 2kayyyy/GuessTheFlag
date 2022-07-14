@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1A1482A287F522200709CA9 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A14829287F522200709CA9 /* GameManager.swift */; };
+		A127FE15288034AC00AD084C /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A127FE14288034AC00AD084C /* Generator.swift */; };
+		A127FE172880920800AD084C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A127FE162880920800AD084C /* Manager.swift */; };
 		A1B4593D287D79DE00E56736 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4593C287D79DE00E56736 /* GuessTheFlagApp.swift */; };
 		A1B4593F287D79DE00E56736 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4593E287D79DE00E56736 /* ContentView.swift */; };
 		A1B45941287D79E200E56736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B45940287D79E200E56736 /* Assets.xcassets */; };
@@ -26,7 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1A14829287F522200709CA9 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		A127FE14288034AC00AD084C /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		A127FE162880920800AD084C /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		A1B45939287D79DE00E56736 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B4593C287D79DE00E56736 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
 		A1B4593E287D79DE00E56736 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,7 +84,7 @@
 				A1B45956287D95D500E56736 /* Models */,
 				A1B45940287D79E200E56736 /* Assets.xcassets */,
 				A1B45942287D79E200E56736 /* Preview Content */,
-				A1A14829287F522200709CA9 /* GameManager.swift */,
+				A127FE162880920800AD084C /* Manager.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -120,6 +122,7 @@
 		A1B45956287D95D500E56736 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A127FE14288034AC00AD084C /* Generator.swift */,
 				A1B4596F287DF58600E56736 /* data_json.json */,
 				A1B45969287DD46200E56736 /* FlagData.swift */,
 				A1B4596D287DF41300E56736 /* Answer.swift */,
@@ -209,8 +212,9 @@
 				A1B4593D287D79DE00E56736 /* GuessTheFlagApp.swift in Sources */,
 				A1B4595E287DAABC00E56736 /* FlagView.swift in Sources */,
 				A1B45955287D922400E56736 /* ProgressBar.swift in Sources */,
+				A127FE172880920800AD084C /* Manager.swift in Sources */,
 				A1B45951287D8E2400E56736 /* Extensions.swift in Sources */,
-				A1A1482A287F522200709CA9 /* GameManager.swift in Sources */,
+				A127FE15288034AC00AD084C /* Generator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

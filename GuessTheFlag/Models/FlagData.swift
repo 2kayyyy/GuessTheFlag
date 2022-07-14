@@ -9,7 +9,9 @@
 import Foundation
 
 struct FlagData: Codable {
-    let Code, Name: String
+    
+    var Code: String
+    var Name: AttributedString
     static let allFlags: [FlagData] = Bundle.main.decode(file: "data_json.json")
 }
 

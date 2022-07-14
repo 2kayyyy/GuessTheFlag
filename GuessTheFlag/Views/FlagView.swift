@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct Flag: View {
-    public let random_code: String
     var body: some View {
-        AsyncImage(url: URL(string: "https://countryflagsapi.com/png/"+random_code)) {image in
+        AsyncImage(url: FlagQuestion) {image in
             image
                 .resizable()
                 .scaledToFit()
@@ -26,6 +25,6 @@ struct Flag: View {
 
 struct Flag_Previews: PreviewProvider {
     static var previews: some View {
-        Flag(random_code: "br")
+        Flag()
     }
 }

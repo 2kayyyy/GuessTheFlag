@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct QuestionView: View {
+    
+    var allFlags: [FlagData] = FlagData.allFlags
     var body: some View {
         VStack(spacing: 40) {
                 HStack {
@@ -25,7 +27,7 @@ struct QuestionView: View {
             VStack(alignment: .leading, spacing: 20) {
                 HStack {
                     Spacer()
-                    Flag(random_code: "br")
+                    Flag()
                     Spacer()
                 }
                 Text("What flag is this?")
@@ -33,10 +35,10 @@ struct QuestionView: View {
                     .bold()
                     .foregroundColor(.gray)
                 
-                AnswerRow(answer: Answer(text: "Nepal", isCorrect: true))
-                AnswerRow(answer: Answer(text: "India", isCorrect: false))
-                AnswerRow(answer: Answer(text: "Sri Lanka", isCorrect: false))
-                AnswerRow(answer: Answer(text: "Japan", isCorrect: false))
+                AnswerRow(answer: Answer(text: random_name, isCorrect: true))
+                AnswerRow(answer: Answer(text: random_name1, isCorrect: false))
+                AnswerRow(answer: Answer(text: random_name2, isCorrect: false))
+                AnswerRow(answer: Answer(text: random_name3, isCorrect: false))
             }
             
             PrimaryButton(text: "Next")
